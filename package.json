@@ -1,8 +1,16 @@
 {
+  "scripts": {
+    "dev": "parcel ./public/index.html",
+    "build": "parcel build ./public/index.html"
+  },
   "name": "ES6-course",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/mylenasantos/ES6-course.git",
   "author": "Mylena Santos <myleena.santos@icloud.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "less": "^3.9.0",
+    "parcel-bundler": "^1.12.3"
+  }
 }
